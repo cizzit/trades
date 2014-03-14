@@ -1,0 +1,174 @@
+* {
+	padding:0;margin:0;
+	font-family:Arial, Tahoma, sans-serif;
+	color:#000;
+	font-size:0.95em;
+}
+body {
+	text-align:center;
+}
+table {
+	border:1px solid #000;
+}
+table tr th {
+	background:#ccc;
+	border:1px solid #000;
+	padding:0 1;
+}
+table tr th.hover, span.hover {
+	background:#eed;
+	border:1px solid #000;
+	padding:0 1;
+}
+table tr {
+	height:20px;
+}
+
+table tr td {
+	border-bottom:1px solid #bbb;
+	margin:0;
+	text-align:left;
+	font-size:0.9em;	
+	padding:0 2 0 2;
+	vertical-align:top;	
+	cursor:default;
+}
+tr.bold td {
+	font-weight:bold;
+	color:#00f;
+}
+tr.sold td {
+	color:#f36;
+}
+.cent {
+	text-align:center;
+}
+td.make{
+	text-transform:capitalize;
+}
+
+.tone {background-color:#fee}
+.ttwo {background-color:#edd}
+.cone {background-color:#efe}
+.ctwo {background-color:#ded}
+.bone {background-color:#eef}
+.btwo {background-color:#dde}
+.mone {background-color:#fef}
+.mtwo {background-color:#ede}
+.sone {background-color:#eff}
+.stwo {background-color:#dee}
+.ione {background-color:#eee}
+.itwo {background-color:#ddd}
+.oone {background-color:#ffe}
+.otwo {background-color:#eed}
+
+.tone:hover, .ttwo:hover, .cone:hover,.ctwo:hover,.bone:hover,.btwo:hover,.mone:hover,.mtwo:hover,.sone:hover,.stwo:hover,.ione:hover,.itwo:hover,.oone:hover,.otwo:hover  {
+	background-color:#fff;
+
+}
+
+p {
+	margin:10 5;
+	text-align:left;
+}
+a {
+	color:#00f;
+}
+p.center {
+	text-align:center;
+	padding:0 5;
+}
+p.description a {
+	border:1px solid #000;
+	padding:0px 3px;
+	margin:0px 2px;
+	text-decoration:none;
+	font-size:1.1em;
+	color:#fff;
+	background:#37a;
+}
+p.description input.checkbox {
+	border:none;
+	background:inherit;
+}
+p.description input.search {
+	width:200px;
+	padding:1px;
+}
+p.description a.current, p.description a:hover {
+	background-color:#7ae;
+}
+p.description a.current:hover {
+	color:#000;
+}
+p.alert {
+	font-size:2.5em;
+	color:#f00;
+}
+h1.big {
+	font-size:2.2em;
+}
+p.big {
+	font-size:1.6em;
+}
+#content {
+	text-align:center;
+}
+
+#addnewtrade {
+	width:300px;
+	text-align:center;
+	font-size:1.5em;
+	margin:0 auto;
+}
+.editbox {
+	display:block;
+	border:1px solid #37a;
+	text-decoration:none;
+	background:#37a;
+	color:#fff;
+	font-weight:bold;
+}
+.editbox:hover {
+	background:#7ae;
+}
+input, textarea, select {
+	border:1px solid #37a;
+	background:#e2e2e2;
+}
+.radio {
+	border:1px solid #fff;
+	background:none;
+}
+.button {
+	border:1px solid #555;
+	background:#37a;
+	color:#fff;
+	font-weight:bold;
+	padding:0px 10px;
+	text-decoration:none;
+}
+.red {
+	background:#f33;
+}
+textarea {
+	padding:2px;
+}
+.showhide {
+	font-size:0.7em;
+	cursor:hand;
+}
+#instructions {
+	width:90%;
+	border:1px solid #37a;
+	padding:5px;
+	margin:0px auto 5px auto;
+}
+#footer {
+	font-size:0.8em;
+	font-family:Arial, Tahoma, sans-serif;
+	padding:2 0;
+}
+#footer p {
+	text-align:center;
+}
